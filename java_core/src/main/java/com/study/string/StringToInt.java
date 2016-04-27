@@ -1,4 +1,4 @@
-package com.string.study;
+package com.study.string;
 
 /**
  * Created by wangwei on 16/4/27.
@@ -25,7 +25,7 @@ public class StringToInt {
         char[] chars = str.toCharArray();
         int result = 0;
         int factor = 10;
-        for (int i = 0; i < chars.length; i ++) {
+        for (int i = 0; i < chars.length; i++) {
             if (i == chars.length - 1) {
                 factor = 1;
             }
