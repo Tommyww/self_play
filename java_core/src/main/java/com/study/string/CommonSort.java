@@ -52,10 +52,10 @@ public class CommonSort {
             int i = start, j = end;
             int temp;
             while (i <= j) {
-                while ((array[i] < base) && (i < end)) {
+                while (array[i] < base && i < end) {
                     i ++;
                 }
-                while ((array[j] > base) && (j > start)) {
+                while (array[j] > base && j > start) {
                     j --;
                 }
                 if (i <= j) {
