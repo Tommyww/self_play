@@ -11,5 +11,13 @@
 
     <artifactId>java_core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.12.6</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
